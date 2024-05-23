@@ -1,0 +1,597 @@
+12:47:12.956 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@ccb4b1b]
+12:47:12.957 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:12.957 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=27
+12:47:12.957 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:12.957 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:12.957 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:12.957 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:12.957 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:12.957 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:12.957 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:12.957 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:12.958 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:12.958 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:12.958 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:12.958 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:12.958 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:12.958 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:12.958 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:12.958 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:12.958 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:12.959 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=27, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=54, filterCount=0, writeCount=54 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=27, rollbackCount=0, exitDescription=
+12:47:12.960 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:12.961 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:12.962 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@68044f4]
+12:47:12.963 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:12.964 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=28
+12:47:12.964 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:12.964 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:12.964 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:12.964 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:12.964 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:12.965 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:12.965 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:12.965 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:12.967 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:12.967 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:12.968 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:12.968 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:12.968 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:12.968 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:12.968 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:12.968 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:12.968 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:12.969 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=28, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=56, filterCount=0, writeCount=56 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=28, rollbackCount=0, exitDescription=
+12:47:12.970 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:12.971 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:12.972 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@32811494]
+12:47:12.972 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:12.972 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=29
+12:47:12.972 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:12.972 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:12.972 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:12.972 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:12.972 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:12.972 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:12.972 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:12.972 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:12.972 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:12.973 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:12.974 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:12.974 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:12.974 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:12.974 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:12.974 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:12.974 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:12.974 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:12.976 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=29, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=58, filterCount=0, writeCount=58 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=29, rollbackCount=0, exitDescription=
+12:47:12.976 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:12.978 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:12.979 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@66b7550d]
+12:47:12.979 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:12.979 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=30
+12:47:12.979 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:12.979 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:12.979 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:12.979 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:12.980 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:12.980 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:12.980 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:12.980 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:12.980 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:12.980 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:12.980 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:12.980 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:12.981 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:12.981 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:12.981 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:12.981 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:12.981 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:12.984 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=30, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=60, filterCount=0, writeCount=60 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=30, rollbackCount=0, exitDescription=
+12:47:12.984 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:12.985 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:12.986 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@1af146]
+12:47:12.986 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:12.986 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=31
+12:47:12.986 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:12.986 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:12.986 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:12.986 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:12.986 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:12.986 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:12.986 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:12.987 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:12.987 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:12.987 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:12.988 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:12.988 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:12.988 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:12.988 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:12.988 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:12.989 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:12.989 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:12.990 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=31, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=62, filterCount=0, writeCount=62 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=31, rollbackCount=0, exitDescription=
+12:47:12.991 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:12.996 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:12.996 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@30bcf3c1]
+12:47:12.997 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:12.997 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=32
+12:47:12.997 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:12.997 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:12.997 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:12.997 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.002 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.002 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.002 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.002 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.002 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.002 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.002 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.003 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.003 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.004 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.004 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.004 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.004 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.008 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=32, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=64, filterCount=0, writeCount=64 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=32, rollbackCount=0, exitDescription=
+12:47:13.008 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.010 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.010 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@47db5fa5]
+12:47:13.010 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.010 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=33
+12:47:13.010 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.010 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.010 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.010 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.010 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.010 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.010 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.011 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.011 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.011 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.011 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.011 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.011 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.012 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.012 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.012 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.012 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.013 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=33, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=66, filterCount=0, writeCount=66 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=33, rollbackCount=0, exitDescription=
+12:47:13.013 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.016 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.016 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@2ece4966]
+12:47:13.016 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.016 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=34
+12:47:13.016 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.016 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.016 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.016 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.016 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.016 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.016 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.017 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.018 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.018 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.018 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.018 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.018 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.018 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.018 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.018 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.018 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.022 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=34, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=68, filterCount=0, writeCount=68 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=34, rollbackCount=0, exitDescription=
+12:47:13.022 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.023 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.023 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@4baf352a]
+12:47:13.024 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.024 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=35
+12:47:13.024 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.024 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.024 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.024 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.024 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.024 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.024 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.025 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.025 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.025 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.025 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.026 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.026 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.026 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.027 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.027 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.027 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.030 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=35, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=70, filterCount=0, writeCount=70 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=35, rollbackCount=0, exitDescription=
+12:47:13.031 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.037 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.037 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@2692b61e]
+12:47:13.038 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.038 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=36
+12:47:13.038 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.038 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.039 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.039 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.039 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.039 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.039 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.039 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.039 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.039 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.039 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.039 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.040 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.040 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.040 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.040 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.040 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.042 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=36, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=72, filterCount=0, writeCount=72 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=36, rollbackCount=0, exitDescription=
+12:47:13.043 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.044 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.044 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@2c104774]
+12:47:13.044 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.044 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=37
+12:47:13.044 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.044 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.044 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.044 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.044 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.045 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.045 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.045 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.045 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.045 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.049 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.049 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.049 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.050 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.050 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.050 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.050 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.051 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=37, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=74, filterCount=0, writeCount=74 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=37, rollbackCount=0, exitDescription=
+12:47:13.051 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.052 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.052 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@346a361]
+12:47:13.053 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.053 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=38
+12:47:13.053 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.053 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.053 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.053 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.053 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.053 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.053 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.053 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.053 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.053 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.053 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.053 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.054 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.054 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.054 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.054 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.054 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.055 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=38, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=76, filterCount=0, writeCount=76 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=38, rollbackCount=0, exitDescription=
+12:47:13.055 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.058 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.058 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@2c1b9e4b]
+12:47:13.058 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.058 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=39
+12:47:13.058 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.058 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.059 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.059 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.059 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.059 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.059 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.059 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.059 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.059 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.059 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.059 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.059 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.059 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.060 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.060 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.060 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.060 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=39, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=78, filterCount=0, writeCount=78 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=39, rollbackCount=0, exitDescription=
+12:47:13.061 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.068 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.070 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@6c67e137]
+12:47:13.070 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.070 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=40
+12:47:13.071 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.071 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.071 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.071 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.071 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.071 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.071 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.071 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.071 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.071 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.071 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.071 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.072 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.072 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.072 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.072 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.072 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.074 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=40, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=80, filterCount=0, writeCount=80 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=40, rollbackCount=0, exitDescription=
+12:47:13.074 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.075 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.076 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@4fcee388]
+12:47:13.076 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.076 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=41
+12:47:13.076 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.076 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.076 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.076 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.076 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.076 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.076 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.076 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.076 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.076 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.076 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.077 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.077 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.077 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.077 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.077 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.077 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.079 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=41, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=82, filterCount=0, writeCount=82 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=41, rollbackCount=0, exitDescription=
+12:47:13.080 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.081 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.081 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@72f46e16]
+12:47:13.081 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.081 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=42
+12:47:13.081 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.081 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.081 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.081 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.081 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.081 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.081 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.081 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.082 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.082 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.082 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.082 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.083 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.083 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.083 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.083 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.084 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.085 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=42, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=84, filterCount=0, writeCount=84 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=42, rollbackCount=0, exitDescription=
+12:47:13.085 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.088 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.088 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@2baa8d82]
+12:47:13.088 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.088 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=43
+12:47:13.088 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.088 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.088 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.088 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.088 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.088 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.088 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.088 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.088 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.088 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.089 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.089 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.089 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.090 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.090 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.090 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.090 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.090 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=43, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=86, filterCount=0, writeCount=86 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=43, rollbackCount=0, exitDescription=
+12:47:13.090 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.091 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.093 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@355e34c7]
+12:47:13.093 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.093 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=44
+12:47:13.093 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.094 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.094 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.094 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.094 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.094 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.094 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.094 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.094 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.094 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.094 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.095 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.096 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.097 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.097 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.097 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.097 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.098 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=44, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=88, filterCount=0, writeCount=88 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=44, rollbackCount=0, exitDescription=
+12:47:13.099 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.100 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.100 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@67ef029]
+12:47:13.100 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.100 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=45
+12:47:13.100 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.101 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.101 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.101 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.101 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.101 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.101 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.101 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.102 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.102 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.102 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.102 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.102 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.102 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.103 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.103 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.103 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.104 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=45, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=90, filterCount=0, writeCount=90 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=45, rollbackCount=0, exitDescription=
+12:47:13.104 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.105 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.105 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@3b366632]
+12:47:13.105 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.105 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=46
+12:47:13.105 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.105 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.105 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.105 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.105 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.105 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.105 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.105 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.106 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.106 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.106 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.106 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.106 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.107 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.107 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.107 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.107 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.109 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=46, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=92, filterCount=0, writeCount=92 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=46, rollbackCount=0, exitDescription=
+12:47:13.109 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.110 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.114 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@2cd2c8fe]
+12:47:13.115 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.115 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=47
+12:47:13.115 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.115 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.116 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.116 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.117 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.118 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.119 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.120 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.121 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.122 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.122 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.122 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.125 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.125 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.125 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.125 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.126 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.126 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=47, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=94, filterCount=0, writeCount=94 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=47, rollbackCount=0, exitDescription=
+12:47:13.127 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.132 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.139 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@5769e7ae]
+12:47:13.140 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.140 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=48
+12:47:13.140 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.140 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.140 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.140 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.140 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.140 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.140 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.140 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.142 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.142 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.142 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.142 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.143 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.143 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.143 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.143 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.144 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.146 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=48, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=96, filterCount=0, writeCount=96 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=48, rollbackCount=0, exitDescription=
+12:47:13.146 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.149 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.149 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@6c4f9535]
+12:47:13.149 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.149 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=49
+12:47:13.149 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.149 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.150 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.150 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.150 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.150 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.150 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.150 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.150 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.150 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.150 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.151 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.151 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.151 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.153 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.153 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.153 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.154 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=49, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=98, filterCount=0, writeCount=98 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=49, rollbackCount=0, exitDescription=
+12:47:13.154 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.155 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.155 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@70eecdc2]
+12:47:13.155 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.155 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=50
+12:47:13.155 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.155 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.155 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.155 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.155 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.155 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.157 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.157 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.157 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=2
+12:47:13.157 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.157 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - afterRead
+12:47:13.158 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.158 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - beforeWrite
+12:47:13.159 [main] INFO com.batch.utils.listener.CustomItemWriterListener - ItemWriteListener - afterWrite
+12:47:13.160 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: false
+12:47:13.160 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=2, written=2, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.160 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.163 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=50, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=100, filterCount=0, writeCount=100 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=50, rollbackCount=0, exitDescription=
+12:47:13.163 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.165 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.165 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@2d8f2f3a]
+12:47:13.165 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.166 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=51
+12:47:13.166 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@3c77d488
+12:47:13.166 [main] DEBUG org.springframework.batch.core.scope.context.StepContextRepeatCallback - Chunk execution starting: queue size=0
+12:47:13.166 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.166 [main] INFO com.batch.utils.listener.LoggingChunkListener - Before chunk processing...
+12:47:13.166 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Starting repeat context.
+12:47:13.166 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat operation about to start at count=1
+12:47:13.166 [main] INFO com.batch.utils.listener.CustomItemReaderListener - ItemReadListener - beforeRead
+12:47:13.167 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.167 [main] DEBUG org.springframework.batch.core.step.item.ChunkOrientedTasklet - Inputs not busy, ended: true
+12:47:13.167 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Applying contribution: [StepContribution: read=0, written=0, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+12:47:13.167 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.169 [main] DEBUG org.springframework.batch.core.step.tasklet.TaskletStep - Saving step execution before commit: StepExecution: id=1, version=51, name=step1, status=STARTED, exitStatus=EXECUTING, readCount=100, filterCount=0, writeCount=100 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=51, rollbackCount=0, exitDescription=
+12:47:13.169 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Participating in existing transaction
+12:47:13.171 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.171 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@7bd69e82]
+12:47:13.171 [main] INFO com.batch.utils.listener.LoggingChunkListener - After chunk processing...
+12:47:13.172 [main] DEBUG org.springframework.batch.repeat.support.RepeatTemplate - Repeat is complete according to policy and result value.
+12:47:13.172 [main] DEBUG org.springframework.batch.core.step.AbstractStep - Step execution success: id=1
+12:47:13.173 [main] DEBUG com.batch.actions.LinesReader - Line Reader ended. Direct Debits size: 100
+100
+12:47:13.177 [main] INFO com.batch.utils.listener.StepExecutionListeners - StepExecutionListener - afterStep
+12:47:13.177 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [org.springframework.batch.core.repository.support.SimpleJobRepository.updateExecutionContext]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.179 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.179 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@36dce7ed]
+12:47:13.180 [main] INFO org.springframework.batch.core.step.AbstractStep - Step: [step1] executed in 884ms
+12:47:13.180 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [org.springframework.batch.core.repository.support.SimpleJobRepository.update]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.182 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.183 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@3d526ad9]
+12:47:13.183 [main] DEBUG org.springframework.batch.core.step.AbstractStep - Step execution complete: StepExecution: id=1, version=53, name=step1, status=COMPLETED, exitStatus=COMPLETED, readCount=100, filterCount=0, writeCount=100 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=51, rollbackCount=0
+12:47:13.184 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [org.springframework.batch.core.repository.support.SimpleJobRepository.updateExecutionContext]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.197 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.197 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@62ddd21b]
+12:47:13.197 [main] DEBUG org.springframework.batch.core.job.flow.support.SimpleFlow - Completed state=helloWorldJob.step1 with status=COMPLETED
+12:47:13.200 [main] DEBUG org.springframework.batch.core.job.flow.support.SimpleFlow - Handling state=helloWorldJob.end1
+12:47:13.200 [main] DEBUG org.springframework.batch.core.job.flow.support.SimpleFlow - Completed state=helloWorldJob.end1 with status=COMPLETED
+12:47:13.202 [main] DEBUG org.springframework.batch.core.job.AbstractJob - Job execution complete: JobExecution: id=0, version=1, startTime=Thu May 23 12:47:12 CEST 2024, endTime=null, lastUpdated=Thu May 23 12:47:12 CEST 2024, status=COMPLETED, exitStatus=exitCode=COMPLETED;exitDescription=, job=[JobInstance: id=0, version=0, Job=[helloWorldJob]], jobParameters=[{}]
+12:47:13.207 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Creating new transaction with name [org.springframework.batch.core.repository.support.SimpleJobRepository.update]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+12:47:13.218 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Initiating transaction commit
+12:47:13.219 [main] DEBUG org.springframework.batch.support.transaction.ResourcelessTransactionManager - Committing resourceless transaction on [org.springframework.batch.support.transaction.ResourcelessTransactionManager$ResourcelessTransaction@982bb90]
+12:47:13.219 [main] INFO org.springframework.batch.core.launch.support.SimpleJobLauncher - Job: [FlowJob: [name=helloWorldJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 934ms
+Exit Status : COMPLETED
+Exit Status : []
